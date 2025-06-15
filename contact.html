@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>联系我们 - 煜初五金</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>煜初五金</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" data-lang-key="home">首页</a></li>
+                <li><a href="about.html" data-lang-key="about">关于我们</a></li>
+                <li><a href="products.html" data-lang-key="products">产品展示</a></li>
+                <li><a href="contact.html" class="active" data-lang-key="contact">联系我们</a></li>
+            </ul>
+            <div class="language-switch">
+                <button class="lang-switch" data-lang="zh">中文</button>
+                <button class="lang-switch" data-lang="en">English</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-hero">
+            <h1 data-lang="contact.title">联系我们</h1>
+        </section>
+
+        <section class="contact-content">
+            <div class="contact-info">
+                <h2 data-lang="contact.info.title">联系方式</h2>
+                <div class="info-grid">
+                    <div class="info-item">
+                        <div class="info-icon">📍</div>
+                        <h3 data-lang="contact.info.address.title">公司地址</h3>
+                        <p data-lang="contact.info.address.value">[公司地址]</p>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">📞</div>
+                        <h3 data-lang="contact.info.phone.title">联系电话</h3>
+                        <p data-lang="contact.info.phone.value">[联系电话]</p>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">✉️</div>
+                        <h3 data-lang="contact.info.email.title">电子邮箱</h3>
+                        <p data-lang="contact.info.email.value">[电子邮箱]</p>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">⏰</div>
+                        <h3 data-lang="contact.info.hours.title">营业时间</h3>
+                        <p data-lang="contact.info.hours.weekday">周一至周五: 9:00 - 18:00</p>
+                        <p data-lang="contact.info.hours.saturday">周六: 9:00 - 12:00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form-container">
+                <h2 data-lang="contact.form.title">在线留言</h2>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name" data-lang="contact.form.name">您的姓名</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone" data-lang="contact.form.phone">联系电话</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" data-lang="contact.form.email">电子邮箱</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" data-lang="contact.form.message">留言内容</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button" data-lang="contact.form.submit">发送信息</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="map-section">
+            <h2 data-lang="contact.map.title">公司位置</h2>
+            <div class="map-container">
+                <!-- 这里可以嵌入地图，例如百度地图或高德地图 -->
+                <div class="map-placeholder">
+                    <p data-lang="contact.map.loading">地图加载中...</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p data-lang="footer.copyright">&copy; 2024 煜初五金 版权所有</p>
+        </div>
+    </footer>
+
+    <script src="languages.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 

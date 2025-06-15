@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>产品展示 - 橘缘五金</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>橘缘五金</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" data-lang-key="home">首页</a></li>
+                <li><a href="about.html" data-lang-key="about">关于我们</a></li>
+                <li><a href="products.html" class="active" data-lang-key="products">产品展示</a></li>
+                <li><a href="contact.html" data-lang-key="contact">联系我们</a></li>
+            </ul>
+            <div class="language-switch">
+                <button class="lang-switch" data-lang="zh">中文</button>
+                <button class="lang-switch" data-lang="en">English</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="products-hero">
+            <h1 data-lang="products.title">产品展示</h1>
+        </section>
+
+        <section class="products-content">
+            <div class="product-categories">
+                <button class="category-btn active" data-category="all" data-lang="products.categories.all">全部产品</button>
+                <button class="category-btn" data-category="hardware" data-lang="products.categories.hardware">五金配件</button>
+                <button class="category-btn" data-category="machinery" data-lang="products.categories.machinery">机械零件</button>
+                <button class="category-btn" data-category="standard" data-lang="products.categories.standard">标准件</button>
+            </div>
+
+            <div class="products-grid">
+                <div class="product-card" data-category="hardware">
+                    <img src="images/product1.jpg" alt="五金配件">
+                    <div class="product-info">
+                        <h3 data-lang="home.carousel.slide1.title">高品质五金配件</h3>
+                        <p data-lang="home.carousel.slide1.desc">专业定制，品质保证</p>
+                        <a href="#" class="product-link" data-lang="products.viewDetails">查看详情</a>
+                    </div>
+                </div>
+                <div class="product-card" data-category="machinery">
+                    <img src="images/product2.jpg" alt="机械零件">
+                    <div class="product-info">
+                        <h3 data-lang="home.carousel.slide2.title">精密机械零件</h3>
+                        <p data-lang="home.carousel.slide2.desc">高精度加工，稳定可靠</p>
+                        <a href="#" class="product-link" data-lang="products.viewDetails">查看详情</a>
+                    </div>
+                </div>
+                <div class="product-card" data-category="standard">
+                    <img src="images/product3.jpg" alt="标准件">
+                    <div class="product-info">
+                        <h3 data-lang="home.carousel.slide3.title">工业标准件</h3>
+                        <p data-lang="home.carousel.slide3.desc">符合国际标准，品质卓越</p>
+                        <a href="#" class="product-link" data-lang="products.viewDetails">查看详情</a>
+                    </div>
+                </div>
+                <!-- 可以添加更多产品卡片 -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p data-lang="footer.copyright">&copy; 2024 橘缘五金 版权所有</p>
+        </div>
+    </footer>
+
+    <script src="languages.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
