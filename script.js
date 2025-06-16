@@ -194,4 +194,4 @@ productCards.forEach(card => {
     card.addEventListener('mouseleave', function() {
         this.style.transform = 'translateY(0)';
     });
-}); 
+});

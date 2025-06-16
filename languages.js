@@ -92,11 +92,44 @@ const languages = {
             title: "产品展示",
             categories: {
                 all: "全部产品",
-                hardware: "五金配件",
-                machinery: "机械零件",
-                standard: "标准件"
+                hinge: "铰链系列",
+                hiddenHinge: "隐藏铰链",
+                foldableBracket: "折叠支架",
+                foldableBracketK: "K型折叠支架",
+                drawerSlide: "抽屉滑轨",
+                cornerBrace: "角码系列",
+                triangularBracket: "三角支架"
             },
-            viewDetails: "查看详情"
+            items: {
+                hinge: {
+                    title: "标准铰链",
+                    desc: "高品质不锈钢材质，耐用可靠"
+                },
+                hiddenHinge: {
+                    title: "隐藏式铰链",
+                    desc: "美观实用，安装便捷"
+                },
+                foldableBracket: {
+                    title: "折叠支架",
+                    desc: "承重能力强，使用方便"
+                },
+                foldableBracketK: {
+                    title: "K型折叠支架",
+                    desc: "特殊结构设计，稳定性好"
+                },
+                drawerSlide: {
+                    title: "抽屉滑轨",
+                    desc: "静音顺滑，使用寿命长"
+                },
+                cornerBrace: {
+                    title: "角码",
+                    desc: "连接牢固，安装简单"
+                },
+                triangularBracket: {
+                    title: "三角支架",
+                    desc: "结构稳定，承重能力强"
+                }
+            }
         },
         contact: {
             title: "联系我们",
@@ -230,11 +263,44 @@ const languages = {
             title: "Products",
             categories: {
                 all: "All Products",
-                hardware: "Hardware Parts",
-                machinery: "Machinery Parts",
-                standard: "Standard Parts"
+                hinge: "Hinges",
+                hiddenHinge: "Hidden Hinges",
+                foldableBracket: "Foldable Brackets",
+                foldableBracketK: "K-Type Foldable Brackets",
+                drawerSlide: "Drawer Slides",
+                cornerBrace: "Corner Braces",
+                triangularBracket: "Triangular Brackets"
             },
-            viewDetails: "View Details"
+            items: {
+                hinge: {
+                    title: "Standard Hinge",
+                    desc: "High-quality stainless steel material, durable and reliable"
+                },
+                hiddenHinge: {
+                    title: "Hidden Hinge",
+                    desc: "Beautiful and practical, easy to install"
+                },
+                foldableBracket: {
+                    title: "Foldable Bracket",
+                    desc: "Strong load-bearing capacity, easy to use"
+                },
+                foldableBracketK: {
+                    title: "K-Type Foldable Bracket",
+                    desc: "Special structural design, good stability"
+                },
+                drawerSlide: {
+                    title: "Drawer Slide",
+                    desc: "Silent and smooth, long service life"
+                },
+                cornerBrace: {
+                    title: "Corner Brace",
+                    desc: "Firm connection, simple installation"
+                },
+                triangularBracket: {
+                    title: "Triangular Bracket",
+                    desc: "Stable structure, strong load-bearing capacity"
+                }
+            }
         },
         contact: {
             title: "Contact Us",
